@@ -1,8 +1,6 @@
 # Personal
 Context/*
 !Context/.gitkeep
-Projects/*
-!Projects/.gitkeep
 
 # Python
 __pycache__/
