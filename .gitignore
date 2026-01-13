@@ -1,0 +1,43 @@
+# Personal
+Context/*
+!Context/.gitkeep
+Projects/*
+!Projects/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+.env
+
+# IDE & Editor configs
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Tool-specific
+.specstory/
+.factory/
+
+# Logs
+*.log
+logs/
+
+# Testing
+test_*.py
+*.test.py
+.pytest_cache/
+.coverage
+
+# MCP/System
+.mcp_cache/
+*.pid
+*.lock
