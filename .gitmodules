@@ -1,0 +1,3 @@
+[submodule "Projects"]
+	path = Projects
+	url = git@github.com:extra-sterk/Obsidian-ClaudeCode-workspace-projects.git
