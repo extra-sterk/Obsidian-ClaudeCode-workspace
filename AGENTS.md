@@ -1,4 +1,4 @@
-# Claude Bootstrap
+# Codex Bootstrap
 
 Read `Operating-Rules.md` in this directory and follow it before beginning work.
 
