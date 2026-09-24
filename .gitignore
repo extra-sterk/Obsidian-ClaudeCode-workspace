@@ -48,3 +48,4 @@ test_*.py
 .mcp_cache/
 *.pid
 *.lock
+!uv.lock

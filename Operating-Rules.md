@@ -53,6 +53,13 @@ For an orientation request such as “where shall we begin?”, summarize the re
 - Preserve authorization boundaries inside every skill. A skill explains a workflow; it does not grant permission to take external action.
 - Use scripts only for repeated or deterministic operations. Validate new or changed skills before relying on them.
 
+## Python environment
+
+- Use the repository-owned `uv` environment declared by `pyproject.toml`, `uv.lock`, and `.python-version`.
+- Run Python commands and scripts with `uv run`; activation of `.venv` is unnecessary.
+- Add reusable dependencies with `uv add <package>` so the manifest and lockfile stay synchronized. Use `uv run --with <package>` only for genuinely one-off work.
+- Never commit `.venv/`, credentials, or secret-bearing environment files.
+
 ## Activity logging
 
 When Workspace files change, append one brief entry to `Activity/YYYY-MM-DD.md` with the time, actor, scope, files touched, and outcome. Do not include secrets or message contents.
